@@ -8,6 +8,9 @@ import org.springframework.context.annotation.Configuration;
 
 @ComponentScan("com.tjazi")
 @SpringBootApplication
+@EnableAutoConfiguration
+@Configuration
+
 public class TestconsoleApplication {
 
     public static void main(String[] args) {
